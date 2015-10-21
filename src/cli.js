@@ -23,7 +23,7 @@ module.exports = function (program) {
 	} else if (program.sectioned) {
 		formatted = format.sectionedMapping(lease, program.locale);
 	} else {
-		formatted = format.displayMapping(lease, program.includeExistential, program.locale);
+		formatted = format.displayMapping(lease, program.locale, program.includeExistential);
 	}
 
 	var stringified;

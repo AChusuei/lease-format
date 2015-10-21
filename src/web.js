@@ -13,7 +13,7 @@ module.exports = function (program) {
 	});
 
 	app.post('/format', function (req, res) {
-		var formatted = format.displayMapping(req.body, false, req.locale);
+		var formatted = format.displayMapping(req.body, req.locale, false);
 		res.end(JSON.stringify(formatted));
 	});
 

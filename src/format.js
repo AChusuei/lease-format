@@ -229,7 +229,7 @@
 		});
 	};
 
-	exports.displayMapping = function (comp, includeExists, locale) {
+	exports.displayMapping = function (comp, locale, includeExists) {
 		return exports.format(comp, locale).reduce(function (acc, item) {
 			acc[item.name] = item.value;
 			if (includeExists) {
