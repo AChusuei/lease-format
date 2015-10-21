@@ -20,7 +20,7 @@ bower install compstak/lease-format
 ### CLI
 
 ```
-lease-format "{\"startingRent\":23.34, \"transactionSize\":5000, \"concessionsPercentage\": 0.123, \"market\":\"Atlanta\"}"
+lease-format --locale=en_US "{\"startingRent\":23.34, \"transactionSize\":5000, \"concessionsPercentage\": 0.123, \"market\":\"Atlanta\"}"
 ```
 
 ### Webservice
@@ -31,13 +31,15 @@ lease-format --serve
 
 The server will respond to POSTs to `/format`, `/withmeta`, and `/sectioned`
 
+It will take the locale from the accept-language header. Default is the server's setting, probably en_US.
+
 ### Node/RequireJS
 ```
 var leaseFormat = require('lease-format');
 
-leaseFormat.format(lease); // complete data, including meta
-leaseFormat.displayMapping(lease); // key->val pairs
-leaseFormat.sectionedMapping(lease); // key->val pairs sectioned into groups
+leaseFormat.format(lease, 'en_US'); // complete data, including meta
+leaseFormat.displayMapping(lease, 'en_US'); // key->val pairs
+leaseFormat.sectionedMapping(lease, 'en_US'); // key->val pairs sectioned into groups
 ```
 
 ## Contributing
