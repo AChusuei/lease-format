@@ -1,0 +1,26 @@
+{
+  "name": "lease-format",
+  "main": "src/format.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/compstak/lease-format",
+  "authors": [
+    "Stu Kabakoff <stuart@compstak.com>"
+  ],
+  "description": "Lease formatting utilities",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.10.6",
+    "ramda": "^0.18.0"
+  }
+}
