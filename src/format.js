@@ -64,7 +64,11 @@
 		return number(low)+'-'+number(high)+scale;
 	};
 
-	exports.formatValue = function (propertyName, value, marketName) {
+	exports.formatValue = function (propertyName, value, marketName, locale) {
+
+		if (value === null) {
+			return value;
+		}
 
 		var currency = marketName === 'London' ? 'GBP' : 'USD';
 
@@ -96,8 +100,8 @@
 		}
 
 		// because the date is now ISO 8601, we need to transform it to the american format of MM/DD/YYYY
-		if (value !== null && ['commencementDate', 'dateCreated', 'executionDate', 'expirationDate'].indexOf(attribute.name) !== -1) {
-			value = date(value, true); // the second argument will make the year appear with 4 digits
+		if (value !== null && attribute.jsType === 'date') {
+			value = date(value, true, locale); // the second argument will make the year appear with 4 digits
 		}
 
 		// special cases when we receive a object { numberOfSpots: value, pricePerSpot: value }
@@ -113,34 +117,34 @@
 		}
 
 		// leaseEscalations special case: array of objects like { dollars: value, months: value }
-		if (value !== null && attribute.name === 'leaseEscalations') {
+		if (attribute.name === 'leaseEscalations') {
 			value = value.map(function (escalation) {
 				return money(escalation.dollars, currency) + "/" + months(escalation.months);
 			}).join(", ");
 		}
 
 		// floorOccupancies special case. Fortunately the backend sends the formatted value on the payload
-		if (value !== null && attribute.name === 'floorOccupancies') {
+		if (attribute.name === 'floorOccupancies') {
 			value = value.formatted;
 		}
 
 		// mainFloorDetails special case.
-		if (value !== null && attribute.name === 'mainFloorDetails' && value) {
+		if (attribute.name === 'mainFloorDetails' && value) {
 			value = floorDetails(value);
 		}
 
 		// otherFloorsDetails - similar to mainFloorDetails, just an array
-		if (value !== null && attribute.name === 'otherFloorsDetails') {
+		if (attribute.name === 'otherFloorsDetails') {
 			value = value.map(function (floor) { return floorDetails(floor); }).join(', ');
 		}
 
 		// rentBumpsDollar are always yearly (https://compstak.atlassian.net/wiki/display/DATA/Rent+Bump+Years)
-		if (value !== null && attribute.name === 'rentBumpsDollar') {
+		if (attribute.name === 'rentBumpsDollar') {
 			value = money(value.bumps, currency) + "/" + (value.months / 12);
 		}
 
 		// rentBumpsPercent are similar to rentBumpsDollar (see above) - but the bump value is already a %
-		if (value !== null && attribute.name === 'rentBumpsPercent') {
+		if (attribute.name === 'rentBumpsPercent') {
 			value = value.bumps + "%/" + (value.months / 12);
 		}
 
@@ -176,7 +180,7 @@
 		return value;
 	};
 
-	exports.format = function (comp) {
+	exports.format = function (comp, locale) {
 		return attributes.list(comp.market).filter(function (attribute) {
 
 			if (!comp.hasOwnProperty(attribute.name)) {
@@ -200,7 +204,7 @@
 			}
 
 			if (value !== null) {
-				value = exports.formatValue(attribute.name, value, comp.market);
+				value = exports.formatValue(attribute.name, value, comp.market, locale);
 			}
 
 			return {
@@ -215,8 +219,8 @@
 		});
 	};
 
-	exports.displayMapping = function (comp, includeExists) {
-		return exports.format(comp).reduce(function (acc, item) {
+	exports.displayMapping = function (comp, includeExists, locale) {
+		return exports.format(comp, locale).reduce(function (acc, item) {
 			acc[item.name] = item.value;
 			if (includeExists) {
 				acc[item.name+'Exists'] = item.valueExists;
@@ -226,7 +230,7 @@
 	};
 
 	exports.sectionedMapping = function (comp) {
-		return exports.format(comp).reduce(function (attrsBySection, attr) {
+		return exports.format(comp, locale).reduce(function (attrsBySection, attr, locale) {
 
 			if (!attrsBySection[attr.section]) {
 				attrsBySection[attr.section] = [];

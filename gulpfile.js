@@ -31,9 +31,8 @@ gulp.task('webpack', [], function() {
 });
 
 gulp.task('watch', function() {
-	var dirs = ['src', 'attributes', 'spec'];
 
-	gulp.watch(['src/*.js', 'attributes/*', 'spec/*.js']).on('change', function(event) {
+	gulp.watch(['./src/*.js', './attributes/*', './spec/*.js']).on('change', function(event) {
 		if (event.type === 'changed') {
 			gulp.src(event.path, { base: path.resolve(src) })
 				.pipe(webpack.closest(CONFIG_FILENAME))

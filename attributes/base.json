@@ -1248,7 +1248,7 @@
 		"id": -1,
 		"inCompDetailsScreen": true,
 		"inUniversalInputTemplate": false,
-		"jsType": "none",
+		"jsType": "date",
 		"locked": false,
 		"name": "dateCreated",
 		"section": "Dates",

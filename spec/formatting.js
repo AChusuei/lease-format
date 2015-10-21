@@ -10,7 +10,7 @@ var unownedGood = [{"name":"tenantName","displayName":"Tenant Name","value":"Sto
 
 describe('Owned Lease', function () {
 
-	var ownedData = formatting.format(ownedLease);
+	var ownedData = formatting.format(ownedLease, 'en_US');
 
 	ownedData.forEach(function (data, i) {
 		it('should format '+data.name+' correctly', function () {
@@ -23,7 +23,7 @@ describe('Owned Lease', function () {
 
 describe('Unowned Lease', function () {
 
-	var unownedData = formatting.format(unownedLease);
+	var unownedData = formatting.format(unownedLease, 'en_US');
 
 	unownedData.forEach(function (data, i) {
 		it('should format '+data.name+' correctly', function () {

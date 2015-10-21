@@ -3,5 +3,9 @@
 
 	"src_files": [
 		"spec/build/index.js"
+	],
+
+	"launch_in_dev": [
+		"phantomjs"
 	]
 }

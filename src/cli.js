@@ -19,11 +19,11 @@ module.exports = function (program) {
 	var formatted;
 
 	if (program.includeMeta) {
-		formatted = format.format(lease);
+		formatted = format.format(lease, program.locale);
 	} else if (program.sectioned) {
-		formatted = format.sectionedMapping(lease);
+		formatted = format.sectionedMapping(lease, program.locale);
 	} else {
-		formatted = format.displayMapping(lease, program.includeExistential);
+		formatted = format.displayMapping(lease, program.includeExistential, program.locale);
 	}
 
 	var stringified;
