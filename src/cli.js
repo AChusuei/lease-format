@@ -2,6 +2,11 @@ var format = require('./format');
 
 module.exports = function (program) {
 
+	if (program.args[0]) {
+		console.error('Lease JSON was not provided. Use --help for more info.');
+		process.exit(1);
+	}
+
 	var lease;
 	try {
 		lease = JSON.parse(program.args[0]);

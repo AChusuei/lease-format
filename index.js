@@ -8,7 +8,6 @@ var web = require('./src/web');
 
 program
 	.version(config.version)
-	.option('-l, --locale [en-us]', 'Change locale', 'en-us')
 	.option('-w, --serve', 'Run as a webservice')
 	.option('-p, --port [7000]', 'Port on which to run the webservice', 7000)
 	.option('-e, --include-existential', 'Include existential fields in the output (e.g. transactionSizeExists: true)')
