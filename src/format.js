@@ -6,7 +6,7 @@
 			'ramda',
 			// You are welcome to get into an argument with James Burke on
 			// whether or not this is elegant. I'm not doing it again.
-			'../../../bower_components/lease-format/attributes/index',
+			'/bower_components/lease-format/attributes/index.js',
 			'ui/util/number',
 			'ui/util/percent',
 			'ui/util/abbreviateNumber',
