@@ -1,0 +1,30 @@
+{
+  "name": "lease-format",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/format.js",
+  "bin" : { "lease-format" : "./index.js" },
+  "scripts": {
+    "test": "webpack; testem ci",
+    "start": "node index.js --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "commander": "^2.9.0",
+    "express": "^4.13.3",
+    "ramda": "^0.18.0",
+    "ui": "git://github.com/compstak/fed-ui.git#dev"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-testem": "0.0.1",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack-build": "^0.13.1",
+    "json-loader": "^0.5.3",
+    "webpack": "^1.12.2",
+    "webpack-config": "^0.8.1"
+  }
+}

@@ -1,0 +1,212 @@
+[
+	{
+		"backendSortName": "transactionSize",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Transaction Size",
+		"hideIfBlank": false,
+		"id": 4,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "transactionSize",
+		"postUnit": " m²",
+		"section": "Lease",
+		"tooltip": "Total <b>m<sup>2</sup></b> reported. If Retail, total Main floor <b>m<sup>2</sup></b> only.",
+		"width": 150,
+		"xlsName": "Transaction Size"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Main Floor Details (m² and rent)",
+		"hideIfBlank": true,
+		"id": 35,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "mainFloorDetails",
+		"section": "Lease",
+		"tooltip": "Leased m² and rent per m² for the main floor. (Usually, this is the ground floor)",
+		"width": 100,
+		"xlsName": "Main Floor Details (m² and rent)"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Other Floors Details (m² and rent)",
+		"hideIfBlank": true,
+		"id": 36,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "otherFloorsDetails",
+		"section": "Lease",
+		"tooltip": "Leased m² and rent per m² for any other floor in addition to the main floor",
+		"width": 100,
+		"xlsName": "Other Floors Details (m² and rent)"
+	},
+	{
+		"backendSortName": "startingRent",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Starting Rent",
+		"hideIfBlank": false,
+		"id": 13,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "startingRent",
+		"preUnit": "£",
+		"section": "Lease",
+		"tooltip": "<b>£/m²</b> on the first day of the lease, quoted in annual or monthly terms, depending on the market.",
+		"width": 100,
+		"xlsName": "Starting Rent"
+	},
+	{
+		"backendSortName": "adjStartingRent",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Adjusted Starting Rent",
+		"hideIfBlank": false,
+		"id": 13,
+		"inCompDetailsScreen": false,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "adjStartingRent",
+		"preUnit": "£",
+		"section": "Lease",
+		"tooltip": "<b>£/m²</b> on the first day of the lease, quoted in annual or monthly terms, depending on the market.",
+		"width": 100,
+		"xlsName": "Starting Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Starting Rent (Gross Annual)",
+		"hideIfBlank": true,
+		"id": 5,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "grossAnnualRent",
+		"preUnit": "£",
+		"section": "Lease",
+		"tooltip": "Gross annual rent for the first year of the lease.",
+		"width": 100,
+		"xlsName": "Starting Rent (Gross Annual)"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Net Effective Rent",
+		"hideIfBlank": false,
+		"id": 14,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "effectiveRent",
+		"section": "Lease",
+		"tooltip": "<b>Starting Rent</b> with <b>Escalations</b> minus <b>TI</b> and <b>Free Rent</b>, divided by <b>Lease Term</b>. No discount rates applied.",
+		"width": 100,
+		"xlsName": "Effective Rent (As Reported)"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Current Rent",
+		"hideIfBlank": false,
+		"id": 15,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "currentRent",
+		"preUnit": "£",
+		"section": "Lease",
+		"tooltip": "Current rent paid based on base rent, escalations and time passed since commencement date.",
+		"width": 100,
+		"xlsName": "Current Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Percentage Rent",
+		"hideIfBlank": true,
+		"id": 42,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "percentageRent",
+		"section": "Lease",
+		"tooltip": "Addtional rent paid by the tenant based on a percentage of gross sales in access of a set monetary amount.",
+		"width": 100,
+		"xlsName": "Percentage Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Rent Bump Pounds",
+		"hideIfBlank": true,
+		"id": 21,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "rentBumpsDollar",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Rent Bumps £"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Postal Code",
+		"hideIfBlank": false,
+		"id": 74,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": false,
+		"name": "zip",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Postal Code"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Building Size",
+		"hideIfBlank": true,
+		"id": 50,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingSize",
+		"section": "Building",
+		"preUnit": " m²",
+		"width": 100,
+		"xlsName": "Building Size"
+	}
+]

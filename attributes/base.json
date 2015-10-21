@@ -1,0 +1,1274 @@
+[
+	{
+		"backendSortName": "tenantName",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Tenant Name",
+		"hideIfBlank": false,
+		"id": 0,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "tenantName",
+		"section": "Lease",
+		"width": 200,
+		"xlsName": "Tenant"
+	},
+	{
+		"backendSortName": "executionQuarter",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Transaction Quarter",
+		"hideIfBlank": false,
+		"id": 3,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": false,
+		"name": "executionQuarter",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Transaction Quarter"
+	},
+	{
+		"backendSortName": "transactionSize",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Transaction Size",
+		"hideIfBlank": false,
+		"id": 4,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "transactionSize",
+		"postUnit": " SF",
+		"section": "Lease",
+		"tooltip": "Total <b>SF</b> reported. If Retail, total Main floor <b>SF</b> only.",
+		"width": 150,
+		"xlsName": "Transaction Size"
+	},
+	{
+		"backendSortName": "transactionSize",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Concessions %",
+		"hideIfBlank": false,
+		"id": 400,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "concessionsPercentage",
+		"postUnit": "%",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Concessions %"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Main Floor Details (SF and rent)",
+		"hideIfBlank": true,
+		"id": 35,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "mainFloorDetails",
+		"section": "Lease",
+		"tooltip": "Leased SQFT and rent per SQFT for the main floor. (Usually, this is the ground floor)",
+		"width": 100,
+		"xlsName": "Main Floor Details (SF and rent)"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Other Floors Details (SF and rent)",
+		"hideIfBlank": true,
+		"id": 36,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "otherFloorsDetails",
+		"section": "Lease",
+		"tooltip": "Leased SQFT and rent per SQFT for any other floor in addition to the main floor",
+		"width": 100,
+		"xlsName": "Other Floors Details (SF and rent)"
+	},
+	{
+		"backendSortName": "transactionTypeName",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Transaction Type",
+		"hideIfBlank": false,
+		"id": 1,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "transactionType",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Transaction Type"
+	},
+	{
+		"backendSortName": "sublease",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Sublease",
+		"hideIfBlank": false,
+		"id": 29,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "sublease",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Sublease?"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Lease Type",
+		"hideIfBlank": false,
+		"id": 34,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "leaseType",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Lease Type"
+	},
+	{
+		"backendSortName": "startingRent",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Starting Rent",
+		"hideIfBlank": false,
+		"id": 13,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "startingRent",
+		"preUnit": "$",
+		"section": "Lease",
+		"tooltip": "<b>$/SQFT</b> on the first day of the lease, quoted in annual or monthly terms, depending on the market.",
+		"width": 100,
+		"xlsName": "Starting Rent"
+	},
+	{
+		"backendSortName": "adjStartingRent",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Adjusted Starting Rent",
+		"hideIfBlank": false,
+		"id": 13,
+		"inCompDetailsScreen": false,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "adjStartingRent",
+		"preUnit": "$",
+		"section": "Lease",
+		"tooltip": "<b>$/SQFT</b> on the first day of the lease, quoted in annual or monthly terms, depending on the market.",
+		"width": 100,
+		"xlsName": "Starting Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Asking Rent",
+		"hideIfBlank": true,
+		"id": 16,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "mainFloorAskingRent",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Asking Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Starting Rent (Gross Annual)",
+		"hideIfBlank": true,
+		"id": 5,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "grossAnnualRent",
+		"preUnit": "$",
+		"section": "Lease",
+		"tooltip": "Gross annual rent for the first year of the lease.",
+		"width": 100,
+		"xlsName": "Starting Rent (Gross Annual)"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Net Effective Rent",
+		"hideIfBlank": false,
+		"id": 14,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "effectiveRent",
+		"section": "Lease",
+		"tooltip": "<b>Starting Rent</b> with <b>Escalations</b> minus <b>TI</b> and <b>Free Rent</b>, divided by <b>Lease Term</b>. No discount rates applied.",
+		"width": 100,
+		"xlsName": "Effective Rent (As Reported)"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Current Rent",
+		"hideIfBlank": false,
+		"id": 15,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "currentRent",
+		"preUnit": "$",
+		"section": "Lease",
+		"tooltip": "Current rent paid based on base rent, escalations and time passed since commencement date.",
+		"width": 100,
+		"xlsName": "Current Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Percentage Rent",
+		"hideIfBlank": true,
+		"id": 42,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "percentageRent",
+		"section": "Lease",
+		"tooltip": "Addtional rent paid by the tenant based on a percentage of gross sales in access of a set dollar amount.",
+		"width": 100,
+		"xlsName": "Percentage Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Escalations",
+		"hideIfBlank": false,
+		"id": 19,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "rentBumps",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Escalations"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Rent Bump Percent",
+		"hideIfBlank": true,
+		"id": 22,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "rentBumpsPercent",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Rent Bumps %"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Rent Bump Dollar",
+		"hideIfBlank": true,
+		"id": 21,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "rentBumpsDollar",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Rent Bumps $"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Rent Bump Year",
+		"hideIfBlank": true,
+		"id": 20,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "rentBumpYears",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Rent Bump Year"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Rent Schedule",
+		"hideIfBlank": true,
+		"id": 23,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "leaseEscalations",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Escalations"
+	},
+	{
+		"backendSortName": "freeMonths",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Free Rent",
+		"hideIfBlank": false,
+		"id": 24,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "freeMonths",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Free Rent"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Free Rent Type",
+		"hideIfBlank": true,
+		"id": 71,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "freeRentType",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Free Rent Type"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Work Type",
+		"hideIfBlank": true,
+		"id": 26,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "workType",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Work Type"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Work Value",
+		"hideIfBlank": true,
+		"id": 27,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "workValue",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Work Value"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Concessions Notes",
+		"hideIfBlank": true,
+		"id": 28,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "concessionsNotes",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Concessions Notes"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Operating Expenses Type",
+		"hideIfBlank": true,
+		"id": 37,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "operatingExpensesType",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Operating Expenses"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Operating Expenses Value",
+		"hideIfBlank": true,
+		"id": 38,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "operatingExpensesValue",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Operating Expenses Value"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Operating Expenses Notes",
+		"hideIfBlank": true,
+		"id": 39,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "operatingExpensesNotes",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Operating Expenses Notes"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Annual Taxes",
+		"hideIfBlank": true,
+		"id": 41,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "annualTaxesNotes",
+		"section": "Lease",
+		"width": 100,
+		"xlsName": "Annual Taxes"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Pro Rata Percent",
+		"hideIfBlank": true,
+		"id": 40,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "proRataPercent",
+		"section": "Lease",
+		"tooltip": "The proportionate share of the tenant in the reimbursable expenses.",
+		"width": 100,
+		"xlsName": "Pro Rata %"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Execution Date",
+		"hideIfBlank": false,
+		"id": 10,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "date",
+		"locked": true,
+		"name": "executionDate",
+		"section": "Dates",
+		"tooltip": "Date the lease is signed.",
+		"width": 100,
+		"xlsName": "Transaction Date"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Commencement Date",
+		"hideIfBlank": false,
+		"id": 11,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "date",
+		"locked": true,
+		"name": "commencementDate",
+		"section": "Dates",
+		"tooltip": "Date the <b>Lease Term</b> begins.",
+		"width": 100,
+		"xlsName": "Commencement Date"
+	},
+	{
+		"backendSortName": "expirationDate",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Expiration Date",
+		"hideIfBlank": false,
+		"id": 12,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "date",
+		"locked": true,
+		"name": "expirationDate",
+		"section": "Dates",
+		"tooltip": "Date the <b>Lease Term</b> ends.",
+		"width": 100,
+		"xlsName": "Expiration Date (As Reported)"
+	},
+	{
+		"backendSortName": "leaseTerm",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Lease Term",
+		"hideIfBlank": false,
+		"id": 33,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "leaseTerm",
+		"section": "Dates",
+		"width": 100,
+		"xlsName": "Lease Term"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Renewal Options",
+		"hideIfBlank": true,
+		"id": 31,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "renewalOptions",
+		"section": "Dates",
+		"width": 100,
+		"xlsName": "Renewal Option"
+	},
+	{
+		"backendSortName": "spaceTypeName",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Space Type",
+		"hideIfBlank": false,
+		"id": 2,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "spaceType",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Space Type"
+	},
+	{
+		"backendSortName": "floors",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Floors Occupied",
+		"hideIfBlank": false,
+		"id": 17,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "floorOccupancies",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Floor"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Suite",
+		"hideIfBlank": false,
+		"id": 18,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "suite",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Suite"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Load Factor",
+		"hideIfBlank": true,
+		"id": 56,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingLoadFactor",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Load Factor"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Sprinkler",
+		"hideIfBlank": true,
+		"id": 57,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingSprinkler",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Sprinkler?"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Clear Height",
+		"hideIfBlank": true,
+		"id": 58,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingCeilingHeight",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Ceiling Height"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Doors",
+		"hideIfBlank": true,
+		"id": 59,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingGroundLvlDoorsCount",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "GL Door"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Loading Docks",
+		"hideIfBlank": true,
+		"id": 60,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingLoadingDocksCount",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Loading Dock"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Rail",
+		"hideIfBlank": true,
+		"id": 61,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingRail",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Rail"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Office Portion",
+		"hideIfBlank": true,
+		"id": 62,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingOfficePortion",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Office Portion"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Selling Basement",
+		"hideIfBlank": true,
+		"id": 6,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingSellingBasement",
+		"section": "Space",
+		"tooltip": "<b>Yes</b> means that a basement is used for sales or that the public has access to the basement",
+		"width": 100,
+		"xlsName": "Selling Basement?"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Vented Space",
+		"hideIfBlank": true,
+		"id": 7,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingVentedSpace",
+		"section": "Space",
+		"tooltip": "<b>Yes</b> means that cooking ventilation infrastructure is in place",
+		"width": 100,
+		"xlsName": "Vented Space"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Corner Unit",
+		"hideIfBlank": true,
+		"id": 8,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingCornerUnit",
+		"section": "Space",
+		"width": 100,
+		"xlsName": "Corner Unit"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Street Frontage",
+		"hideIfBlank": true,
+		"id": 9,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingStreetFrontage",
+		"section": "Space",
+		"tooltip": "Total length of the store's frontage abutting a public street",
+		"width": 100,
+		"xlsName": "Street Frontage"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Building Name",
+		"hideIfBlank": false,
+		"id": 45,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingName",
+		"section": "Building",
+		"width": 150,
+		"xlsName": "Bldg Name"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Property Type",
+		"hideIfBlank": false,
+		"id": 49,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingPropertyType",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Property Type"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Property Subtype",
+		"hideIfBlank": true,
+		"id": 72,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingPropertySubtype",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Property Subtype"
+	},
+	{
+		"backendSortName": "address",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Street Address",
+		"hideIfBlank": false,
+		"id": 43,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "buildingAddress",
+		"section": "Building",
+		"width": 200,
+		"xlsName": "Street Address"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Cross Streets",
+		"hideIfBlank": true,
+		"id": 32,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingCrossStreets",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Cross Streets"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "City",
+		"hideIfBlank": false,
+		"id": 44,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "city",
+		"section": "Building",
+		"width": 150,
+		"xlsName": "City"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "State",
+		"hideIfBlank": false,
+		"id": 73,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": false,
+		"name": "state",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "State"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Zip Code",
+		"hideIfBlank": false,
+		"id": 74,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": false,
+		"name": "zip",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Zip Code"
+	},
+	{
+		"backendSortName": "submarket",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Submarket",
+		"hideIfBlank": false,
+		"id": 75,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": true,
+		"name": "submarket",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Submarket"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Building Class",
+		"hideIfBlank": true,
+		"id": 46,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingClass",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Building Class"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Building Size",
+		"hideIfBlank": true,
+		"id": 50,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingSize",
+		"section": "Building",
+		"postUnit": " SF",
+		"width": 100,
+		"xlsName": "Building Size"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Building Floors",
+		"hideIfBlank": true,
+		"id": 51,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingFloorsCount",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Bldg Floors"
+	},
+	{
+		"backendSortName": "buildingYearBuilt",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Year Built",
+		"hideIfBlank": true,
+		"id": 47,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingYear",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Year Built"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Year Renovated",
+		"hideIfBlank": true,
+		"id": 48,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingYearRenovated",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Year Renovated"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Parking Ratio",
+		"hideIfBlank": true,
+		"id": 52,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingParkingRatio",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Parking Ratio"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Parking Lot Type",
+		"hideIfBlank": true,
+		"id": 55,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "buildingParkingType",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Parking Type"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Sublessor",
+		"hideIfBlank": true,
+		"id": 30,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "sublessorName",
+		"section": "Lease",
+		"width": 150,
+		"xlsName": "Sublessor"
+	},
+	{
+		"backendSortName": "landlordName",
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Landlord Name",
+		"hideIfBlank": false,
+		"id": 63,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "landlordName",
+		"section": "Landlord",
+		"width": 150,
+		"xlsName": "Landlord"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Tenant Industry",
+		"hideIfBlank": true,
+		"id": 66,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "tenantIndustry",
+		"section": "Tenant",
+		"width": 150,
+		"xlsName": "Tenant Industry"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Comments",
+		"hideIfBlank": true,
+		"id": 70,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "comments",
+		"section": "Notes",
+		"width": 200,
+		"xlsName": "Comments"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Landlord Brokerage Firms",
+		"hideIfBlank": false,
+		"id": 85,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "landlordRealtyCompanies",
+		"section": "Landlord",
+		"width": 150,
+		"xlsName": "Lessor Rep Companies"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Tenant Brokerage Firms",
+		"hideIfBlank": true,
+		"id": 77,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "tenantRealtyCompanies",
+		"section": "Tenant",
+		"width": 100,
+		"xlsName": "Tenant Brokerage Firms"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Tenant Brokers",
+		"hideIfBlank": true,
+		"id": 76,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "tenantRealtyBrokers",
+		"section": "Tenant",
+		"width": 100,
+		"xlsName": "Tenant Brokers"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Parking Notes",
+		"hideIfBlank": true,
+		"id": 90,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "parkingNotes",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Parking Notes"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Retail Anchor",
+		"hideIfBlank": true,
+		"id": 82,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "retailAnchor",
+		"section": "Building",
+		"width": 100,
+		"xlsName": "Retail Anchor"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Date Created",
+		"hideIfBlank": true,
+		"id": -1,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": false,
+		"jsType": "none",
+		"locked": false,
+		"name": "dateCreated",
+		"section": "Dates",
+		"width": 100,
+		"xlsName": "Date Created"
+	},
+	{
+		"columnPresets": [
+			"all"
+		],
+		"displayName": "Landlord Brokers",
+		"hideIfBlank": false,
+		"id": 84,
+		"inCompDetailsScreen": true,
+		"inUniversalInputTemplate": true,
+		"jsType": "none",
+		"locked": true,
+		"name": "landlordRealtyBrokers",
+		"section": "Landlord",
+		"width": 150,
+		"xlsName": "Lessor Rep Brokers"
+	}
+]

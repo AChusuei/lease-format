@@ -1,0 +1,7 @@
+{
+	"framework": "mocha",
+
+	"src_files": [
+		"spec/build/index.js"
+	]
+}
