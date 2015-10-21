@@ -17,6 +17,7 @@
 
 	var listCache = {};
 	var hashCache = {};
+	var byIdCache = {};
 	var exports = {};
 
 	function createMarketAttributes (base, market) {
@@ -52,6 +53,17 @@
 			}, {});
 		}
 		return hashCache[marketName];
+	};
+
+	exports.byId = function (marketName) {
+		if (!byIdCache[marketName]) {
+			var list = exports.list(marketName);
+			byIdCache[marketName] = list.reduce(function (acc, prop) {
+				acc[prop.id] = prop;
+				return acc;
+			}, {});
+		}
+		return byIdCache[marketName];
 	};
 
 	return exports;

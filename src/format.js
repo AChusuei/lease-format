@@ -4,7 +4,9 @@
     if(typeof define === 'function' && define.amd) {
         define([
 			'ramda',
-			'../attributes/index',
+			// You are welcome to get into an argument with James Burke on
+			// whether or not this is elegant. I'm not doing it again.
+			'lease-format/../../attributes/index',
 			'ui/util/number',
 			'ui/util/percent',
 			'ui/util/abbreviateNumber',
@@ -62,6 +64,14 @@
 		high = Math.floor(high / divideBy);
 
 		return number(low)+'-'+number(high)+scale;
+	};
+
+	exports.getAttributeHash = function (marketName) {
+		return attributes.hash(marketName);
+	};
+
+	exports.getAttributesById = function (marketName) {
+		return attributes.byId(marketName);
 	};
 
 	exports.formatValue = function (propertyName, value, marketName, locale) {

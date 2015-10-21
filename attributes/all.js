@@ -3,8 +3,8 @@
     //AMD
     if(typeof define === 'function' && define.amd) {
         define([
-			'json!./base',
-			'json!./london'
+			'json!./base.json',
+			'json!./london.json'
         ], factory);
 
     //NODE
