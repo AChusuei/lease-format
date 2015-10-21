@@ -4,9 +4,7 @@
     if(typeof define === 'function' && define.amd) {
         define([
 			'ramda',
-			// You are welcome to get into an argument with James Burke on
-			// whether or not this is elegant. I'm not doing it again.
-			'/bower_components/lease-format/attributes/index.js',
+			'lease-attributes/index',
 			'ui/util/number',
 			'ui/util/percent',
 			'ui/util/abbreviateNumber',

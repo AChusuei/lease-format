@@ -3,7 +3,7 @@
     //AMD
     if(typeof define === 'function' && define.amd) {
         define([
-			'./all.js'
+			'lease-attributes/all'
         ], factory);
 
     //NODE
