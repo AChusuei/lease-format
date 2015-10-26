@@ -1,7 +1,7 @@
 (function(factory) {
 
     //AMD
-    if(typeof define === 'function' && define.amd) {
+    if(typeof requirejs === 'function') {
         define([
 			'lease-attributes/all'
         ], factory);

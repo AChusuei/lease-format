@@ -1,0 +1,134 @@
+{
+    "commencementDate": "2012-02-01",
+    "city": "New York",
+    "transactionSize": 1200,
+    "expirationDate": "2015-02-01",
+    "leaseType": "Full Service",
+    "newDeal": false,
+    "market": "New York City",
+    "partial": false,
+    "buildingClassId": 1,
+    "zip": "10281",
+    "executionDate": "2012-01-01",
+    "buildingPropertyTypeId": 1,
+    "state": "NY",
+    "lastUpdated": "2015-08-25",
+    "versions": 1,
+    "own": true,
+    "landlordRealtyBrokers": [
+        "Michael Jordan"
+    ],
+    "buildingClass": "A",
+    "analyst": "Noam Shahar",
+    "suggestionFields": {
+        "buildingName": {
+            "input": [
+                "Brookfield",
+                "Place",
+                "Brookfield Place"
+            ],
+            "output": "Brookfield Place"
+        },
+        "submarket": {
+            "input": [
+                "World",
+                "Trade",
+                "Center",
+                "World Trade Center"
+            ],
+            "output": "World Trade Center"
+        },
+        "buildingAddressAndCity": {
+            "input": [
+                "250",
+                "Vesey",
+                "Street,",
+                "New",
+                "York",
+                "250 Vesey Street, New York"
+            ],
+            "output": "250 Vesey Street, New York"
+        },
+        "landlordName": {
+            "input": [
+                "Brookfield",
+                "Office",
+                "Properties",
+                "Brookfield Office Properties"
+            ],
+            "output": "Brookfield Office Properties"
+        },
+        "tenantName": {
+            "input": [
+                "Test6",
+                "Test6"
+            ],
+            "output": "Test6"
+        }
+    },
+    "dollarCost": 25,
+    "floorOccupancies": {
+        "formatted": "3",
+        "floors": [
+            {
+                "floor": "3",
+                "occupancyType": null,
+                "seq": 3
+            }
+        ]
+    },
+    "buildingName": "Brookfield Place",
+    "submarket": "World Trade Center",
+    "buildingAddressAndCity": "250 Vesey Street, New York",
+    "marketId": 1,
+    "transactionType": "Renewal",
+    "leaseTypeId": 2,
+    "buildingYear": 1986,
+    "tenantRealtyBrokers": [
+        "Kobe Bryant"
+    ],
+    "sublease": false,
+    "buildingPropertyType": "Office",
+    "propertyId": 526,
+    "buildingAddress": "250 Vesey Street",
+    "id": 290049,
+    "spaceType": "Industrial",
+    "dateCreated": "2015-08-25",
+    "freeMonths": 2,
+    "cost": 1,
+    "landlordRealtyCompanies": [
+        "CBRE"
+    ],
+    "rentBumpsDollar": {"bumps": 0, "months": 12},
+    "rentBumpsPercent": {"bumps": 0, "months": 12, "cpi": false},
+    "startingRent": 2,
+    "adjStartingRent": 2,
+    "executionQuarter": {
+        "year": 2012,
+        "quarter": 1
+    },
+    "spaceTypeId": 6,
+    "shortAddresses": [
+        "4 World Financial Center, New York",
+        "250 Vesey Street, New York",
+        "4 Brookfield Place, New York"
+    ],
+    "effectiveRent": 1.88889,
+    "tenantRealtyCompanies": [
+        "Studely"
+    ],
+    "landlordName": "Brookfield Office Properties",
+    "adjEffectiveRent": 1.88889,
+    "retail": false,
+    "buildingSize": 1904000,
+    "transactionTypeId": 3,
+    "leaseTerm": 36,
+    "geoPoint": {
+        "lat": 40.714025,
+        "lon": -74.015842
+    },
+    "buildingFloorsCount": 34,
+    "suite": "B",
+    "deleted": false,
+    "tenantName": "Test6"
+}

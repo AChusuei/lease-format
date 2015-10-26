@@ -1,0 +1,317 @@
+[
+  {
+    "name": "tenantName",
+    "displayName": "Tenant Name",
+    "value": "Test6",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 200,
+    "showLock": false
+  },
+  {
+    "name": "executionQuarter",
+    "displayName": "Transaction Quarter",
+    "value": "2012 - Q1",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "transactionSize",
+    "displayName": "Transaction Size",
+    "value": "1,200 SF",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 150,
+    "showLock": false
+  },
+  {
+    "name": "transactionType",
+    "displayName": "Transaction Type",
+    "value": "Renewal",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "sublease",
+    "displayName": "Sublease",
+    "value": "No",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "leaseType",
+    "displayName": "Lease Type",
+    "value": "Full Service",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "startingRent",
+    "displayName": "Starting Rent",
+    "value": "$2.00",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "effectiveRent",
+    "displayName": "Net Effective Rent",
+    "value": "$1.89",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "rentBumpsPercent",
+    "displayName": "Rent Bump Percent",
+    "value": "0% per year",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false 
+  },
+  {
+    "name": "rentBumpsDollar",
+    "displayName": "Rent Bump Dollar",
+    "value": "$0.00 per year",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false 
+  },
+  {
+    "name": "freeMonths",
+    "displayName": "Free Rent",
+    "value": "2m",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "executionDate",
+    "displayName": "Execution Date",
+    "value": "01\/01\/2012",
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "commencementDate",
+    "displayName": "Commencement Date",
+    "value": "02\/01\/2012",
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "expirationDate",
+    "displayName": "Expiration Date",
+    "value": "02\/01\/2015",
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "leaseTerm",
+    "displayName": "Lease Term",
+    "value": "3y",
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "spaceType",
+    "displayName": "Space Type",
+    "value": "Industrial",
+    "valueExists": true,
+    "section": "Space",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "floorOccupancies",
+    "displayName": "Floors Occupied",
+    "value": "3",
+    "valueExists": true,
+    "section": "Space",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "suite",
+    "displayName": "Suite",
+    "value": "B",
+    "valueExists": true,
+    "section": "Space",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingName",
+    "displayName": "Building Name",
+    "value": "Brookfield Place",
+    "valueExists": true,
+    "section": "Building",
+    "width": 150,
+    "showLock": false
+  },
+  {
+    "name": "buildingPropertyType",
+    "displayName": "Property Type",
+    "value": "Office",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingAddress",
+    "displayName": "Street Address",
+    "value": "250 Vesey Street",
+    "valueExists": true,
+    "section": "Building",
+    "width": 200,
+    "showLock": false
+  },
+  {
+    "name": "city",
+    "displayName": "City",
+    "value": "New York",
+    "valueExists": true,
+    "section": "Building",
+    "width": 150,
+    "showLock": false
+  },
+  {
+    "name": "state",
+    "displayName": "State",
+    "value": "NY",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "zip",
+    "displayName": "Zip Code",
+    "value": "10281",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "submarket",
+    "displayName": "Submarket",
+    "value": "World Trade Center",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingClass",
+    "displayName": "Building Class",
+    "value": "A",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingSize",
+    "displayName": "Building Size",
+    "value": "1,904,000 SF",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingFloorsCount",
+    "displayName": "Building Floors",
+    "value": "34",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingYear",
+    "displayName": "Year Built",
+    "value": 1986,
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "landlordName",
+    "displayName": "Landlord Name",
+    "value": "Brookfield Office Properties",
+    "valueExists": true,
+    "section": "Landlord",
+    "width": 150,
+    "showLock": false
+  },
+  {
+    "name": "landlordRealtyCompanies",
+    "displayName": "Landlord Brokerage Firms",
+    "value": "CBRE",
+    "valueExists": true,
+    "section": "Landlord",
+    "width": 150,
+    "showLock": false
+  },
+  {
+    "name": "tenantRealtyCompanies",
+    "displayName": "Tenant Brokerage Firms",
+    "value": "Studely",
+    "valueExists": true,
+    "section": "Tenant",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "tenantRealtyBrokers",
+    "displayName": "Tenant Brokers",
+    "value": "Kobe Bryant",
+    "valueExists": true,
+    "section": "Tenant",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "dateCreated",
+    "displayName": "Date Created",
+    "value": "08\/25\/2015",
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "landlordRealtyBrokers",
+    "displayName": "Landlord Brokers",
+    "value": "Michael Jordan",
+    "valueExists": true,
+    "section": "Landlord",
+    "width": 150,
+    "showLock": false
+  }
+]

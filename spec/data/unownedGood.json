@@ -1,0 +1,209 @@
+[
+  {
+    "name": "tenantName",
+    "displayName": "Tenant Name",
+    "value": "Stolle Pie Shop",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 200,
+    "showLock": false
+  },
+  {
+    "name": "executionQuarter",
+    "displayName": "Transaction Quarter",
+    "value": "2015 - Q2",
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "mainFloorDetails",
+    "displayName": "Main Floor Details (SF and rent)",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "sublease",
+    "displayName": "Sublease",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "startingRent",
+    "displayName": "Starting Rent",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "mainFloorAskingRent",
+    "displayName": "Asking Rent",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "grossAnnualRent",
+    "displayName": "Starting Rent (Gross Annual)",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "currentRent",
+    "displayName": "Current Rent",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "executionDate",
+    "displayName": "Execution Date",
+    "value": null,
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "expirationDate",
+    "displayName": "Expiration Date",
+    "value": null,
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "leaseTerm",
+    "displayName": "Lease Term",
+    "value": null,
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "spaceType",
+    "displayName": "Space Type",
+    "value": "Retail",
+    "valueExists": true,
+    "section": "Space",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "buildingAddress",
+    "displayName": "Street Address",
+    "value": "119 Court Street",
+    "valueExists": true,
+    "section": "Building",
+    "width": 200,
+    "showLock": false
+  },
+  {
+    "name": "buildingCrossStreets",
+    "displayName": "Cross Streets",
+    "value": null,
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "city",
+    "displayName": "City",
+    "value": "Brooklyn",
+    "valueExists": true,
+    "section": "Building",
+    "width": 150,
+    "showLock": false
+  },
+  {
+    "name": "state",
+    "displayName": "State",
+    "value": "NY",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "zip",
+    "displayName": "Zip Code",
+    "value": "11201",
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": false
+  },
+  {
+    "name": "submarket",
+    "displayName": "Submarket",
+    "value": null,
+    "valueExists": true,
+    "section": "Building",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "sublessorName",
+    "displayName": "Sublessor",
+    "value": null,
+    "valueExists": true,
+    "section": "Lease",
+    "width": 150,
+    "showLock": true
+  },
+  {
+    "name": "comments",
+    "displayName": "Comments",
+    "value": null,
+    "valueExists": true,
+    "section": "Notes",
+    "width": 200,
+    "showLock": true
+  },
+  {
+    "name": "tenantRealtyCompanies",
+    "displayName": "Tenant Brokerage Firms",
+    "value": null,
+    "valueExists": true,
+    "section": "Tenant",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "tenantRealtyBrokers",
+    "displayName": "Tenant Brokers",
+    "value": null,
+    "valueExists": true,
+    "section": "Tenant",
+    "width": 100,
+    "showLock": true
+  },
+  {
+    "name": "dateCreated",
+    "displayName": "Date Created",
+    "value": "07\/07\/2015",
+    "valueExists": true,
+    "section": "Dates",
+    "width": 100,
+    "showLock": false
+  }
+]

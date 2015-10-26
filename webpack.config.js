@@ -8,7 +8,12 @@ module.exports = {
 		path: __dirname,
 		filename: "./spec/build/index.js"
 	},
+	module: {
+        loaders: [
+            { test: /\.json$/, loader: "json" }
+        ]
+    },
+	amd: false,
 	debug: true,
-	devtool: '#source-map',
-	watchDelay: 200
+	devtool: '#source-map'
 };

@@ -1,8 +1,9 @@
 var format = require('./format');
 
 module.exports = function (program) {
-
-	if (program.args[0]) {
+	console.log(program.args);
+	
+	if (!program.args[0]) {
 		console.error('Lease JSON was not provided. Use --help for more info.');
 		process.exit(1);
 	}

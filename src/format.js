@@ -1,7 +1,7 @@
 (function(factory) {
 
     //AMD
-    if(typeof define === 'function' && define.amd) {
+    if(typeof requirejs === 'function') {
         define([
 			'ramda',
 			'lease-attributes/index',
@@ -62,6 +62,13 @@
 		high = Math.floor(high / divideBy);
 
 		return number(low)+'-'+number(high)+scale;
+	};
+
+	exports.perYearWording = function (years) {
+		if (years === 1) {
+			return 'per year';
+		}
+		return 'every '+years+' years';
 	};
 
 	exports.getAttributeHash = function (marketName) {
@@ -148,12 +155,12 @@
 
 		// rentBumpsDollar are always yearly (https://compstak.atlassian.net/wiki/display/DATA/Rent+Bump+Years)
 		if (attribute.name === 'rentBumpsDollar') {
-			value = money(value.bumps, currency) + "/" + (value.months / 12);
+			value = money(value.bumps, currency) + ' ' + exports.perYearWording(value.months / 12);
 		}
 
 		// rentBumpsPercent are similar to rentBumpsDollar (see above) - but the bump value is already a %
 		if (attribute.name === 'rentBumpsPercent') {
-			value = value.bumps + "%/" + (value.months / 12);
+			value = value.bumps + '% ' + exports.perYearWording(value.months / 12);
 		}
 
 		// Some values are now sent as an array. No need to create a util function that only implements join
