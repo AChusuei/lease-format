@@ -59,6 +59,7 @@ git config --global url."git@github.com:".insteadOf git://github.com/
 ### Running the tests
 ```
 git clone git@github.com:compstak/lease-format
+cd lease-format
 npm install
 npm test
 ```
