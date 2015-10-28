@@ -1,7 +1,6 @@
 (function(factory) {
-
     //AMD
-    if(typeof requirejs === 'function') {
+    if(typeof define === 'function' && define.amd) {
         define([
 			'ramda',
 			'lease-attributes/index',
@@ -244,7 +243,7 @@
 		}, R.clone(comp));
 	};
 
-	exports.sectionedMapping = function (comp) {
+	exports.sectionedMapping = function (comp, locale) {
 		return exports.format(comp, locale).reduce(function (attrsBySection, attr, locale) {
 
 			if (!attrsBySection[attr.section]) {

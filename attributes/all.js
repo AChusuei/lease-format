@@ -1,7 +1,7 @@
 (function(factory) {
 
     //AMD
-    if(typeof requirejs === 'function') {
+    if(typeof define === 'function' && define.amd) {
         define([
 			'json!./base.json',
 			'json!./london.json'

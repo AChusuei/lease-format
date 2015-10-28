@@ -1,12 +1,12 @@
 var formatting = require('../src/format');
 
-var ownedLease = require('./data/owned');
+var ownedLease = require('json!./data/owned');
 
-var unownedLease = require('./data/unowned');
+var unownedLease = require('json!./data/unowned');
 
-var ownedGood = require('./data/ownedGood');
+var ownedGood = require('json!./data/ownedGood');
 
-var unownedGood = require('./data/unownedGood');
+var unownedGood = require('json!./data/unownedGood');
 
 describe('Owned Lease', function () {
 

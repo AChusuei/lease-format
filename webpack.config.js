@@ -10,9 +10,16 @@ module.exports = {
 	},
 	module: {
         loaders: [
-            { test: /\.json$/, loader: "json" }
+        	// put this back and remove the json! from the JS files
+        	// when the front end no longer uses RequireJS
+            // { test: /\.json$/, loader: "json" }
         ]
     },
+	resolve: {
+		alias: {
+			'lease-attributes': '../attributes'
+		}
+	},
 	amd: false,
 	debug: true,
 	devtool: '#source-map'
