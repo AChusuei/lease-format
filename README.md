@@ -51,6 +51,11 @@ npm install -g webpack
 npm install -g testem
 ```
 
+If you haven't already, do this to allow npm/bower to use private repos:
+```
+git config --global url."git@github.com:".insteadOf git://github.com/
+```
+
 ### Running the tests
 ```
 git clone git@github.com:compstak/lease-format
